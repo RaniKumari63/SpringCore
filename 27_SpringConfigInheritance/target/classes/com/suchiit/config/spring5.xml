@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+        <beans>
+       <bean class="com.suchiit.pojo.Employee" id="abstractEmp">
+       
+       <property name="sal" value="25000"></property>
+      
+       <property name="city" value="Hyderabad"></property>
+       </bean>
+        <bean class="com.suchiit.pojo.Employee" id="emp" parent="abstractEmp">
+        <property name="eno" value="100"></property>
+        <property name="ename" value="shiva"></property>
+        <property name="hno" value="302"></property>
+        
+        
+        </bean>
+       <bean class="com.suchiit.pojo.Employee" id="emp1" parent="abstractEmp">
+        <property name="eno" value="101"></property>
+        <property name="ename" value="rani"></property>
+        <property name="hno" value="303"></property>
+        
+        
+        </bean>
+         <bean class="com.suchiit.pojo.Employee" id="emp2" parent="abstractEmp">
+        <property name="eno" value="102"></property>
+        <property name="ename" value="kumari"></property>
+        <property name="hno" value="304"></property>
+        
+        
+        </bean>
+        
+        
+        </beans>

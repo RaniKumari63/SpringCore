@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+        <beans>
+        <bean class="com.suchiit.pojo.Student" id="s">
+        
+        <property name="sno" value="100"></property>
+        <property name="sname" value="shiva"></property>
+        <property name="saddr" value="hyderabad"></property>
+        
+  </bean>
+  
+  <bean class="com.suchiit.pojo.Student" id="s1">
+        
+        <property name="sno" value="1001"></property>
+        <property name="sname" value="shiva a"></property>
+        <property name="saddr" value="hyderabad"></property>
+        
+  </bean>
+  
+  
+  <bean class="com.suchiit.pojo.Student" id="s2">
+        
+        <property name="sno" value="1003"></property>
+        <property name="sname" value="shivab"></property>
+        <property name="saddr" value="hyderabad"></property>
+        
+  </bean>
+  
+  <bean class="com.suchiit.pojo.College" id="c">
+  <property name="cname" value="suchiit academy"></property>
+  <property name="student">
+  <list>
+  <ref bean="s"/>
+ <ref bean="s1"/>
+   <ref bean="s2"/>
+  </list>
+  
+  
+  
+  </property>
+  
+  <property name="faculties">
+  <list>
+  <value>aaa</value>
+   <value>bbb</value>
+   <value>ccc</value>
+   <value>adddaa</value>
+  </list>
+  
+  
+  </property>
+  <property name="courses">
+  <list>
+  <value>aaa</value>
+   <value>bbb</value>
+   <value>ccc</value>
+   <value>adddaa</value>
+  </list>
+  </property>
+  
+  
+  </bean>
+        
+        
+        
+        
+        
+        
+        </beans>

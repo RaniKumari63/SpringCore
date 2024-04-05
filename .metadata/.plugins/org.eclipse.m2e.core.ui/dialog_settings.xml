@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\Neral\eclipse-workspace2\eclipse-workspacespring\01_Spring_CoreEx1\src\main\java\com\suchiit\config\spring.xml"/>
+			<item value="C:\Users\neral\eclipse-workspacespring\23_SpringComponent"/>
+			<item value="C:\Users\neral\eclipse-workspacespring\24_SpringStaticDepedency"/>
+			<item value="C:\Users\neral\eclipse-workspacespring\22_SpringAutoWireAnotation"/>
+			<item value="C:\Users\neral\eclipse-workspacespring\07_SprinSetter"/>
+			<item value="C:\Users\neral\eclipse-workspacespring\16_Spring_ExProperties"/>
+			<item value="C:\Users\neral\eclipse-workspacespring\17_Spring_Scope"/>
+			<item value="C:\Users\neral\eclipse-workspacespring\15_Spring_Properties"/>
+			<item value="C:\Users\neral\eclipse-workspacespring\14_Spring_Collection6"/>
+			<item value="C:\Users\neral\eclipse-workspacespring\13_Spring_Collection5"/>
+			<item value="C:\Users\neral\eclipse-workspacespring\12_Spring_Collection4"/>
+			<item value="C:\Users\neral\eclipse-workspacespring\09_Spring_Collections2"/>
+			<item value="C:\Users\neral\eclipse-workspacespring\10_Spring_Collection2"/>
+			<item value="C:\Users\neral\eclipse-workspacespring\08_Spring_Secondary"/>
+			<item value="C:\Users\neral\eclipse-workspacespring\04_SpringJ2EE"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.suchiit.AllSpringCore"/>
+			<item value="com.suchiit._SpringComponentandjavaconfig"/>
+			<item value="com.suchiit._SpringFactoryMehtod"/>
+			<item value="com.suchiit._Spring_Application"/>
+			<item value="com.suchiit._SpringComponent"/>
+			<item value="com.suchiit._SpringAutoWire"/>
+			<item value="com.suchiit._SpringPCnamespace"/>
+			<item value="com.suchiit._Springdependency"/>
+			<item value="com.suchiit._Spring_Inheritance"/>
+			<item value="com.suchiit._Spring_Scope"/>
+			<item value="com.suchiit._Spring_ExProperties"/>
+			<item value="com.suchiit._Spring_Properties"/>
+			<item value="com.suchiit._Spring_Collection6"/>
+			<item value="com.suchiit._Spring_Collection5"/>
+			<item value="com.suchiit._Spring_Collection4"/>
+		</list>
+		<list key="groupId">
+			<item value="com.suchiit"/>
+		</list>
+		<list key="artifactId">
+			<item value="AllSpringCore"/>
+			<item value="29_SpringComponentandjavaconfig"/>
+			<item value="29_SpringFactoryMehtod"/>
+			<item value="24_Spring_Application"/>
+			<item value="23_SpringComponent"/>
+			<item value="21_SpringAutoWire"/>
+			<item value="20_SpringPCnamespace"/>
+			<item value="19_Springdependency"/>
+			<item value="18_Spring_Inheritance"/>
+			<item value="17_Spring_Scope"/>
+			<item value="16_Spring_ExProperties"/>
+			<item value="15_Spring_Properties"/>
+			<item value="14_Spring_Collection6"/>
+			<item value="13_Spring_Collection5"/>
+			<item value="12_Spring_Collection4"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

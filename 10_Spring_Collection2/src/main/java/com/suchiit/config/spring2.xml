@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+        <beans>
+        <bean id="s" class="com.suchiit.pojo.Student1">
+        <property name="sno" value="1"></property>
+        <property name="sname" value="rani"></property>
+        <property name="saddr" value="hyd"></property>
+       
+        </bean>
+          <bean id="s1" class="com.suchiit.pojo.Student1">
+        <property name="sno" value="2"></property>
+        <property name="sname" value="ranikumari"></property>
+        <property name="saddr" value="hyd"></property>
+       
+        </bean>
+          <bean id="s2" class="com.suchiit.pojo.Student1">
+        <property name="sno" value="3"></property>
+        <property name="sname" value="ranik"></property>
+        <property name="saddr" value="hyd"></property>
+       
+        </bean>
+        
+        <bean id="c" class="com.suchiit.pojo.College1">
+        <property name="cname" value="JNTU"></property>
+        <property name="student" >
+        <list>
+        <ref bean="s"></ref>
+         <ref bean="s1"></ref>
+          <ref bean="s2"></ref>
+        
+    
+        
+        </list>
+        
+        </property>
+        
+        </bean>
+        
+       
+        
+        
+   
+        </beans>

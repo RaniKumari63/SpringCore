@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+        <beans>
+        
+        <bean id="t" class="com.suchiit.pojo.Test">
+        
+        <property name="fruits">
+        <list>
+        <value>Apple</value>
+        
+        <value>Mango</value>
+        
+        </list>
+        
+        
+        
+        </property>
+        
+        
+        
+        <property name="crikerters">
+       <set>
+       <value>sachin</value>
+       <value>ddd</value>
+       <value>sachin</value>
+       </set>
+        
+        
+        
+        </property>
+        <property name="cc">
+       <map>
+       <entry key="India" value="delhi"></entry>
+       <entry key="pak" value="islanbad"/>
+       <entry key="srilanka" value="colombia"></entry>
+       
+       
+       </map>
+        
+        
+        </property>
+        </bean>
+        
+        </beans> 

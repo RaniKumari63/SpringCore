@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+        <beans>
+        <bean id="t" class="com.suchiit.pojo.Test" scope="prototype">
+        <property name="props1">
+        <props>
+        <prop key="driverclass">com.mysql.cj.jdbc.Driver</prop>
+        <prop key="url">jdbc:mysql://Localhost:3306/ranidb</prop>
+        <prop key="user">rani</prop>
+        <prop key="password">ranikumari</prop>
+        
+        
+        
+        </props>
+        
+        </property>
+        
+        
+        </bean>
+        
+        
+        
+        </beans>
